@@ -1,0 +1,162 @@
+body {
+    /* background-image: url("images/Background_Hand.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 10000%; */
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***********************************
+Section for Icons/Images 
+*/
+
+/************************************
+Social media Logos and links 
+*/
+
+#socialMediaIcons {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 360px;
+    left: 30px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.socialIcon {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+/************************************
+Webpage intro Homepage
+*/
+
+/************* 1. Page of Homepage */
+
+.flexBox-1 {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.flexBox-2 {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#divChimpLogo {
+    width: 100%;
+}
+
+#firstPbox {
+    max-width: 90%;
+    width: 1280px;
+    height: 640px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 49%;
+    background-color: white;
+    border-radius: 26px 26px 26px 26px;
+}
+
+/* Logo and Placement */
+
+#divChimpLogo {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#divChimpLogo a {
+    position: absolute;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-size: 30px;
+    left: 56px;
+}
+
+#chimpLogo {
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* Slogan */
+
+#sloganMainPage {
+    width: 530px;
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 80px;
+    font-size: 50px;
+}
+
+#sloganMainPage p {
+    margin: 0px 0px 0px 0px;
+}
+
+/* Download Btn */
+
+#fristBoxDownloadBtn {
+    height: 70px;
+    width: 270px;
+    position: absolute;
+    left: 80px;
+    bottom: 70px;
+    background-color: grey;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+}
+
+#freeDownloadMainPage {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 75px;
+    font-size: 20px;
+}
+
+/* Download Icon */
+
+#circleChimp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#downloadIconMainPage {
+    position: absolute;
+    width: 30px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+/* Animation on mainpage */
+
+#chimpOnDesk {
+    position: absolute;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    top: 50%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
