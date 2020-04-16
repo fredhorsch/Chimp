@@ -1,0 +1,437 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+// ***********************************
+// SASS Variables
+
+
+$base-white-color: #ffffff;
+$base-white-darker-color: #F7F7F7;
+$base-black-ligth-color: #313131;
+$download-blue: #1F23EE;
+$grey-dark: #525252;
+$grey-ligth: #c2d1d9;
+
+// ***********************************
+// Text Font Sizes
+
+
+h1 {
+    font-size: 3.4vw;
+    text-decoration: none;
+    color: $base-black-ligth-color;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: $base-black-ligth-color;
+}
+
+h3 {
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: $base-black-ligth-color;
+}
+
+// ************************************
+// Social media Logos and links 
+
+
+.socialMediaIcons {
+    height: 135px;
+    width: 30px;
+    background-color: $base-white-color;
+    border-radius: 5px 5px 5px 5px;
+    position: fixed;
+    margin-left: 25px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.socialIcon {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+// ************************************
+// Flexbox Features 
+
+
+.flexBox-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexBox-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexBox-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexBox-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexBox-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexBox-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// ************************************  
+// Top bar with menu line 
+
+
+.navigationBar {
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: $base-white-darker-color;
+    position: fixed;
+}
+
+.divChimpLogoNavigationBar {
+    position: relative;
+    margin-left: 20px;
+}
+
+.divChimpLogoNavigationBar a {
+    color: #313131;
+    text-decoration: none;
+    font-size: 30px;
+    left: 56px;
+}
+
+.chimpIconNavigationBar {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.divNavigationBarTools {
+    width: 480px;
+    margin-right: 20px;
+}
+
+.divNavigationBarTools a {
+    text-decoration: none;
+    color: $base-black-ligth-color;
+    font-size: 1.2em;
+}
+
+.downloadNavBar {
+    width: 140px;
+    height: 40px;
+    background-color: $download-blue;
+    border-radius: 20px;
+}
+
+.downloadNavBar p {
+    color: $base-white-darker-color;
+    position: relative;
+}
+
+// ************************************
+// 1. Page of Homepage 
+
+.firstPagebox {
+    margin: 80px 70px 50px 70px;
+    width: auto;
+    height: 640px;
+    background-color: $base-white-darker-color;
+    border-radius: 26px 26px 26px 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.firstPageboxLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.firstPageboxRight {
+    width: 50%;
+    height: 100%;
+}
+
+// Logo and Placement 
+
+#divChimpLogo {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+#divChimpLogo a {
+    position: absolute;
+    color: $base-black-ligth-color;
+    text-decoration: none;
+    font-size: 30px;
+    left: 55px;
+}
+
+#chimpLogo {
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#sloganMainPage {
+    width: 540px;
+    position: relative;
+    transform: translateY(-50%);
+    top: 43%;
+    left: 60px;
+    margin: 0px 0px 0px 0px;
+}
+
+// Download Btn 
+
+#fristBoxDownloadBtn {
+    height: 70px;
+    width: 270px;
+    position: relative;
+    left: 60px;
+    top: 300px;
+    background-color: $download-blue;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.freeDownloadMainPage {
+    color: $base-white-color;
+    text-decoration: none;
+    position: absolute;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 75px;
+    font-size: 20px;
+}
+
+// Download Icon 
+
+.circleChimp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    background-color: $base-white-color;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.downloadIconMainPage {
+    position: absolute;
+    width: 30px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+// Animation on mainpage 
+
+.firstPageDIVAnimation {
+    width: 80%;
+}
+
+#chimpOnDesk {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+// Scroller on the side of the page 
+
+.scrollerSidePage {
+    height: 50px;
+    width: 30px;
+    margin-right: 25px;
+    right: 0px;
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.scrollerLineShort {
+    margin: 0px 0px 10px 0px;
+    width: 15px;
+    height: 1px;
+    background-color: yellowgreen;
+}
+
+.scrollerLineLong {
+    margin: 0px 0px 10px 0px;
+    width: 30px;
+    height: 1px;
+    background-color: yellowgreen;
+}
+
+
+// ***********************************************
+// Second Page of the main page
+
+
+.leftDIVSecondPage {
+    min-width: 60%;
+    height: 650px;
+    background-color: $base-white-darker-color;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+}
+
+#secondBoxDownloadBtn {
+    margin-top: 30px;
+    height: 70px;
+    width: 270px;
+    position: relative;
+    background-color: $download-blue;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#textSecondPageFont36 {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+#textSecondPageFont16 {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.rightDIVSecondPage {
+    min-width: 40%;
+    height: 650px;
+    background-color: $base-white-darker-color;
+    margin: 0px 0px 0px 0px;
+}
+
+.rightSideDIVSecondPage {
+    width: 80%;
+    height: 0;
+    padding-bottom: calc(80% * (9 / 16));
+    background-color: cadetblue;
+}
+
+
+// ***********************************************
+// Third Page of the main page
+
+
+#thirdPageMainDIV {
+    width: 100%;
+    height: 450px;
+    background-color: $grey-dark;
+}
+
+#thirdPageMainDIV h2 {
+    color: $base-white-darker-color;
+}
+
+
+// ***********************************************
+// Fourth Page of the main page
+
+
+.fourthPageMainDIV {
+    width: 100%;
+    height: 966px;
+    background-color: $base-white-color;
+}
+
+.DIVBoxBenefitsOfChimp {
+    width: 80%;
+    height: 840px;
+    background-color: $base-white-darker-color;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingOfPagefour {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogDivOfBenefits {
+    position: relative;
+    margin: 0;
+    border: 1px solid $grey-ligth;
+    border-radius: 2px;
+    width: calc((100% / 3) - 30px);
+    height: 0;
+    padding-bottom: 33%;
+}
+
+.blogDivOfBenefits img {
+    width: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+// ***********************************************
+// Fifth Page of the main page
+
+
+.fifthPageMainDIV {
+    width: 100%;
+    height: 750px;
+    background-color: $grey-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appleEcoSystemSlogan {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.appleEcoSystemSlogan h2 {
+    margin-bottom: 70px;
+    text-align: center;
+    color: $base-white-darker-color;
+}
+
+.appleEcoSystemPic {
+    width: 60%;
+    height: auto;
+}
+
+.fifthPageMainDIV img {
+    width: 100%;
+    border-radius: 8px;
+}
