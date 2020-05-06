@@ -1,0 +1,84 @@
+// ************************************
+// All the Imports variables/body/Flexbox/text
+
+@import "allimport.scss";
+
+
+/* // ************************************  
+// Footer  */
+
+.footerMainDIV {
+    width: 100%;
+    height: 400px;
+    background-color: $grey-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSubDIV {
+    width: 50%;
+}
+
+// .footerSmallmiddleDIV {
+//     margin: 0 auto;
+// }
+
+.footerFont-1 {
+    font-size: 24px;
+    text-decoration: none;
+    color: $base-white-darker-color;
+}
+
+.footerFont-2 {
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: $base-white-darker-color;
+}
+
+.footerSocialMediaIcons {
+}
+
+.footerSocialIcon {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.chimpUGFooter p {
+    text-align: center;
+}
+
+.footerFont-3 {
+    font-size: 24px;
+    text-decoration: none;
+    color: $base-white-darker-color;
+    margin: 50px 0px 0px 0px;
+}
+
+.footerFont-4 {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0;
+    color: $base-white-darker-color;
+}
+
+.footerFont-5 {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 8px 0px 0px 0px;
+    color: $base-white-darker-color;
+}
+
+.copyright {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.chimpDIVBox {
+    margin-top: 8px;
+}

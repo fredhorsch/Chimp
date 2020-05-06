@@ -1,0 +1,24 @@
+// ************************************
+// All the Imports variables/body/Flexbox/text
+
+@import "allimport.scss";
+
+
+/* // ************************************
+// Social media Logos and links  */
+
+.socialMediaIcons {
+    height: 135px;
+    width: 30px;
+    background-color: $base-white-color;
+    border-radius: 5px 5px 5px 5px;
+    position: fixed;
+    margin-left: 25px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.socialIcon {
+    width: 30px;
+    cursor: pointer;
+}

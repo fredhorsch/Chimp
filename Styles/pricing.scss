@@ -1,0 +1,119 @@
+// ************************************
+// All the Imports variables/body/Flexbox/text
+
+@import "allimport.scss";
+
+// ************************************
+// Free or Premium
+
+.checkBox {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.sellOptions {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sellOptions p {
+    margin: 0;
+}
+
+// Pic on free and premium webpage
+
+.firstDIVPricing {
+    background-color: $base-white-darker-color;
+}
+
+.freeOrPremiumPICDiv {
+    min-width: 800px;
+    height: 530px;
+}
+
+.freeIMG {
+    max-width: 260px;
+    max-height: 350px;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.premiumIMG {
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
+}
+
+// All the Free and Premium Options
+
+.freeOrPremiumSecondDiv {
+    width: 100%;
+    min-height: 360px;
+    background-color: $base-white-color;
+}
+
+.freeOrPremiumDiv {
+    min-width: 800px;
+    margin-bottom: 50px;
+}
+
+// Free Option
+
+.freeOption {
+    min-width: 260px;
+    margin: 0 auto;
+}
+
+.freeOption h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#freeOptionFont {
+    margin: 0;
+    text-align: center;
+}
+
+.downloadBtnFree {
+    min-width: 260px;
+    height: 60px;
+    background-color: $base-white-darker-color;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.downloadBtnFree p {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: $grey-dark;
+}
+
+// Premium Option
+
+.premiumOption {
+    min-width: 480px;
+    margin: 0 auto; 
+}
+
+.premiumOption h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.downloadBtnPremium { 
+    min-width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: $download-blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.downloadBtnPremium p {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: $base-white-darker-color;
+}

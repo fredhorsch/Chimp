@@ -3,20 +3,16 @@
 
 <head>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../Styles/styles.css">
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- <script src="https://use.fontawesome.com/939e9dd52c.js"></script> -->
+    <title>Chimp</title>
 
-    <!-- Breakpoint -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-    <title>HTML Tutorial</title>
-    <script src="script.js"></script>
+    <script src="JavaScript/script.js"></script>
 
 </head>
 
@@ -33,7 +29,7 @@
             <!-- Logo for the Webpage -->
 
             <div id="divChimpLogo">
-                <img id="chimpLogo" src="Icons/Chimp_noback.png" alt="Chimpanzee">
+                <img id="chimpLogo" src="../Icons/Chimp_noback.png" alt="Chimpanzee">
                 <a href="">Chimp</a>
             </div>
 
@@ -46,7 +42,7 @@
             <div id="fristBoxDownloadBtn">
 
                 <div class="circleChimp">
-                    <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
+                    <img class="downloadIconMainPage" src="../Icons/Download_Icon.png" alt="Download">
                 </div>
 
                 <a class="freeDownloadMainPage" href="">Free Download</a>
@@ -55,7 +51,7 @@
         </div>
         <div class="flexBox-3 firstPageboxRight">
             <div class="firstPageDIVAnimation">
-                <img id="chimpOnDesk" src="Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
+                <img id="chimpOnDesk" src="../Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
             </div>
 
         </div>
@@ -63,8 +59,10 @@
 
     <!-- Main Objects for the Webapge -->
     <!-- Social Media Links -->
-    <!-- Scroller on the right side of the page -->
     <?php include 'mediaIcons.php'; ?>
+
+    <!-- Scroller on the right side of the page -->
+    <?php include 'scrollerSide.php'; ?>
 
     <!-- Second Page of the main page -->
     <div class="flexBox-2">
@@ -81,7 +79,7 @@
             <div id="secondBoxDownloadBtn">
 
                 <div class="circleChimp">
-                    <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
+                    <img class="downloadIconMainPage" src="../Icons/Download_Icon.png" alt="Download">
                 </div>
 
                 <a class="freeDownloadMainPage" href="">Download Now</a>
@@ -125,27 +123,27 @@
             <!-- <div class="flexBox-4">
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="Objects/theKingOfChimps.png" alt="">
+                    <img src="../Objects/theKingOfChimps.png" alt="">
                 </div>
 
             </div> -->
@@ -171,12 +169,40 @@
             </div>
 
             <div class="appleEcoSystemPic">
-                <img src="Objects/Apple_device.jpg" alt="Apple">
+                <img src="../Objects/Apple_device.jpg" alt="Apple">
             </div>
 
         </div>
 
     </div>
+
+    <!-- Sexth Page with a fucking nice slogan!! -->
+
+    <div class="flexBox-2">
+
+        <div class="sexthPageMainDIV">
+
+
+            <div class="ChimpPicSexthPage">
+                <img src="../Icons/Chimp_Chimp_noback.png" alt="Chimp">
+            </div>
+
+
+            <div class="ChimpSloganSexthPage">
+
+                <h2>Let the Chimp improve the quality in your<br />company and bring everybody more value</h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer Page with a fucking nice slogan!! -->
+
+    <?php include 'footer.php'; ?>
+
 
 </body>
 

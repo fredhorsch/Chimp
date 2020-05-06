@@ -11,7 +11,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   text-decoration: none;
   color: #313131;
 }
@@ -20,23 +20,6 @@ h3 {
   font-size: 1.3vw;
   text-decoration: none;
   color: #313131;
-}
-
-.socialMediaIcons {
-  height: 135px;
-  width: 30px;
-  background-color: #ffffff;
-  border-radius: 5px 5px 5px 5px;
-  position: fixed;
-  margin-left: 25px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  top: 50%;
-}
-
-.socialIcon {
-  width: 30px;
-  cursor: pointer;
 }
 
 .flexBox-1 {
@@ -106,52 +89,85 @@ h3 {
           align-items: center;
 }
 
-.navigationBar {
-  width: 100%;
-  height: 60px;
-  border-radius: 20px;
-  background-color: #F7F7F7;
-  position: fixed;
+.flexBox-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.divChimpLogoNavigationBar {
-  position: relative;
-  margin-left: 20px;
+.flexBox-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.divChimpLogoNavigationBar a {
-  color: #313131;
-  text-decoration: none;
-  font-size: 30px;
-  left: 56px;
+.flexBox-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.chimpIconNavigationBar {
-  height: 40px;
-  margin-right: 15px;
+.flexBox-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
-.divNavigationBarTools {
-  width: 480px;
-  margin-right: 20px;
+.flexBox-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.divNavigationBarTools a {
-  text-decoration: none;
-  color: #313131;
-  font-size: 1.2em;
-}
-
-.downloadNavBar {
-  width: 140px;
-  height: 40px;
-  background-color: #1F23EE;
-  border-radius: 20px;
-}
-
-.downloadNavBar p {
-  color: #F7F7F7;
-  position: relative;
+.flexBox-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .firstPagebox {
@@ -166,12 +182,12 @@ h3 {
 
 .firstPageboxLeft {
   width: 50%;
-  height: 100%;
+  height: 640px;
 }
 
 .firstPageboxRight {
   width: 50%;
-  height: 100%;
+  height: 640px;
 }
 
 #divChimpLogo {
@@ -218,7 +234,7 @@ h3 {
 }
 
 .freeDownloadMainPage {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   position: absolute;
   float: left;
@@ -238,7 +254,7 @@ h3 {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 10px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 50px 50px 50px 50px;
 }
 
@@ -261,31 +277,6 @@ h3 {
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.scrollerSidePage {
-  height: 50px;
-  width: 30px;
-  margin-right: 25px;
-  right: 0px;
-  position: fixed;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  top: 50%;
-}
-
-.scrollerLineShort {
-  margin: 0px 0px 10px 0px;
-  width: 15px;
-  height: 1px;
-  background-color: yellowgreen;
-}
-
-.scrollerLineLong {
-  margin: 0px 0px 10px 0px;
-  width: 30px;
-  height: 1px;
-  background-color: yellowgreen;
 }
 
 .leftDIVSecondPage {
@@ -442,6 +433,52 @@ h3 {
 }
 
 .fifthPageMainDIV img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.sexthPageMainDIV {
+  width: 100%;
+  height: 550px;
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ChimpSloganSexthPage {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ChimpSloganSexthPage h2 {
+  font-size: 3vw;
+  text-align: center;
+  color: #525252;
+}
+
+.ChimpPicSexthPage {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ChimpPicSexthPage img {
   width: 100%;
   border-radius: 8px;
 }
