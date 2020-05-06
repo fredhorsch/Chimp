@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="Styles/styles.css">
     <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -29,7 +29,7 @@
             <!-- Logo for the Webpage -->
 
             <div id="divChimpLogo">
-                <img id="chimpLogo" src="../Icons/Chimp_noback.png" alt="Chimpanzee">
+                <img id="chimpLogo" src="Icons/Chimp_noback.png" alt="Chimpanzee">
                 <a href="">Chimp</a>
             </div>
 
@@ -42,7 +42,7 @@
             <div id="fristBoxDownloadBtn">
 
                 <div class="circleChimp">
-                    <img class="downloadIconMainPage" src="../Icons/Download_Icon.png" alt="Download">
+                    <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
                 </div>
 
                 <a class="freeDownloadMainPage" href="">Free Download</a>
@@ -51,7 +51,7 @@
         </div>
         <div class="flexBox-3 firstPageboxRight">
             <div class="firstPageDIVAnimation">
-                <img id="chimpOnDesk" src="../Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
+                <img id="chimpOnDesk" src="Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
             </div>
 
         </div>
@@ -59,10 +59,10 @@
 
     <!-- Main Objects for the Webapge -->
     <!-- Social Media Links -->
-    <?php include 'mediaIcons.php'; ?>
+    <?php include 'Views/mediaIcons.php'; ?>
 
     <!-- Scroller on the right side of the page -->
-    <?php include 'scrollerSide.php'; ?>
+    <?php include 'Views/scrollerSide.php'; ?>
 
     <!-- Second Page of the main page -->
     <div class="flexBox-2">
@@ -79,7 +79,7 @@
             <div id="secondBoxDownloadBtn">
 
                 <div class="circleChimp">
-                    <img class="downloadIconMainPage" src="../Icons/Download_Icon.png" alt="Download">
+                    <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
                 </div>
 
                 <a class="freeDownloadMainPage" href="">Download Now</a>
@@ -123,27 +123,27 @@
             <!-- <div class="flexBox-4">
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
                 <div class="blogDivOfBenefits">
-                    <img src="../Objects/theKingOfChimps.png" alt="">
+                    <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
             </div> -->
@@ -169,7 +169,7 @@
             </div>
 
             <div class="appleEcoSystemPic">
-                <img src="../Objects/Apple_device.jpg" alt="Apple">
+                <img src="Objects/Apple_device.jpg" alt="Apple">
             </div>
 
         </div>
@@ -184,7 +184,7 @@
 
 
             <div class="ChimpPicSexthPage">
-                <img src="../Icons/Chimp_Chimp_noback.png" alt="Chimp">
+                <img src="Icons/Chimp_Chimp_noback.png" alt="Chimp">
             </div>
 
 
@@ -201,7 +201,7 @@
 
     <!-- Footer Page with a fucking nice slogan!! -->
 
-    <?php include 'footer.php'; ?>
+    <?php include 'Views/footer.php'; ?>
 
 
 </body>

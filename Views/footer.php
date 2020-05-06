@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="Styles/footer.css">
 
 </head>
 
@@ -33,19 +33,19 @@
                 <div class="flexBox-2 footerSocialMediaIcons">
 
                     <div>
-                        <img src="../Icons/facebook-white.png" alt="Facebook" class="footerSocialIcon">
+                        <img src="Icons/facebook-white.png" alt="Facebook" class="footerSocialIcon">
                     </div>
 
                     <div>
-                        <img src="../Icons/youtube-white.png" alt="Youtube" class="footerSocialIcon">
+                        <img src="Icons/youtube-white.png" alt="Youtube" class="footerSocialIcon">
                     </div>
 
                     <div>
-                        <img src="../Icons/twitter-white.png" alt="Twitter" class="footerSocialIcon">
+                        <img src="Icons/twitter-white.png" alt="Twitter" class="footerSocialIcon">
                     </div>
 
                     <div>
-                        <img src="../Icons/linkedin-white.png" alt="LinkedIn" class="footerSocialIcon">
+                        <img src="Icons/linkedin-white.png" alt="LinkedIn" class="footerSocialIcon">
                     </div>
 
                 </div>
@@ -71,7 +71,7 @@
             <p class="footerFont-3">Chimp</p>
 
             <div class="flexBox-2 chimpDIVBox">
-                <img class="copyright" src="../Icons/copyright.png" alt="Copyright">
+                <img class="copyright" src="Icons/copyright.png" alt="Copyright">
                 <p class="footerFont-4">2020 Chimp UG</p>
             </div>
 

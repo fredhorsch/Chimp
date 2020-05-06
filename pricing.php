@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="../Styles/pricing.css">
+    <link rel="stylesheet" href="Styles/pricing.css">
 
 </head>
 
@@ -11,14 +11,14 @@
 
     <!-- Heading bar with menu line -->
 
-    <?php include '../Views/navigationBar.php'; ?>
+    <?php include 'Views/navigationBar.php'; ?>
 
     <!-- Main Objects for the Webapge -->
     <!-- Social Media Links -->
-    <?php include '../Views/mediaIcons.php'; ?>
+    <?php include 'Views/mediaIcons.php'; ?>
 
     <!-- Scroller on the right side of the page -->
-    <?php include '../Views/scrollerSide.php'; ?>
+    <?php include 'Views/scrollerSide.php'; ?>
 
 
     <!-- Free or Premium -->
@@ -27,9 +27,9 @@
         <div class="flexBox-9 firstDIVPricing">
             <div class="flexBox-9 freeOrPremiumPICDiv">
 
-                <img class="freeIMG" src="../Objects/monkey-free.jpeg" alt="Chimpanzee">
+                <img class="freeIMG" src="Objects/monkey-free.jpeg" alt="Chimpanzee">
 
-                <img class="premiumIMG" src="../Objects/monkeys-premium.jpg" alt="Chimpanzee">
+                <img class="premiumIMG" src="Objects/monkeys-premium.jpg" alt="Chimpanzee">
 
             </div>
         </div>
@@ -44,7 +44,7 @@
 
                     <div class="flexBox-2 sellOptions">
 
-                        <img class="checkBox" src="../Icons/check-blue.png" alt="Check">
+                        <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
                         <p>Basic access</p>
 
@@ -65,25 +65,25 @@
 
                     <div>
                         <div class="flexBox-2 sellOptions">
-                            <img class="checkBox" src="../Icons/check-blue.png" alt="Check">
+                            <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
                             <p>orem ipsum dolor sit amet,<br /> consetetur </p>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
-                            <img class="checkBox" src="../Icons/check-blue.png" alt="Check">
+                            <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
                             <p>sadipscing elitr, sed</p>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
-                            <img class="checkBox" src="../Icons/check-blue.png" alt="Check">
+                            <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
                             <p>diam nonumy eirmod</p>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
-                            <img class="checkBox" src="../Icons/check-blue.png" alt="Check">
+                            <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
                             <p>tempor invidunt ut</p>
                         </div>
@@ -105,7 +105,7 @@
 
     <!-- Footer Page with a fucking nice slogan!! -->
 
-    <?php include 'footer.php'; ?>
+    <?php include 'Views/footer.php'; ?>
 
 
 </body>

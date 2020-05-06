@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="../Styles/scrollerSide.css">
+    <link rel="stylesheet" href="Styles/scrollerSide.css">
 
 </head>
 

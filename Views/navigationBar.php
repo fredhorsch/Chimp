@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../Styles/navigationBar.css">
+    <link rel="stylesheet" href="Styles/navigationBar.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <div class="flexBox-5 navigationBar">
 
             <div class="flexBox-5 divChimpLogoNavigationBar">
-                <img class="chimpIconNavigationBar" src="../Icons/Chimp_noback.png" alt="Chimpanzee">
+                <img class="chimpIconNavigationBar" src="Icons/Chimp_noback.png" alt="Chimpanzee">
                 <a href="">Chimp</a>
             </div>
 
