@@ -1,6 +1,8 @@
 body {
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -170,6 +172,76 @@ h3 {
           align-items: center;
 }
 
+.flexBox-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexBox-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexBox-15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flexBox-16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gridBox-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
 .checkBox {
   width: 25px;
   height: 25px;
@@ -183,6 +255,7 @@ h3 {
 
 .sellOptions p {
   margin: 0;
+  font-size: 1em;
 }
 
 .firstDIVPricing {
@@ -190,19 +263,19 @@ h3 {
 }
 
 .freeOrPremiumPICDiv {
-  min-width: 800px;
+  width: 800px;
   height: 530px;
 }
 
 .freeIMG {
-  max-width: 260px;
-  max-height: 350px;
+  width: 260px;
+  max-height: auto;
   margin: 0 auto;
   border-radius: 8px 8px 0 0;
 }
 
 .premiumIMG {
-  max-width: 480px;
+  width: 480px;
   height: auto;
   margin: 0 auto;
   border-radius: 8px 8px 0 0;
@@ -215,12 +288,12 @@ h3 {
 }
 
 .freeOrPremiumDiv {
-  min-width: 800px;
+  width: 800px;
   margin-bottom: 50px;
 }
 
 .freeOption {
-  min-width: 260px;
+  width: 260px;
   margin: 0 auto;
 }
 
@@ -235,7 +308,7 @@ h3 {
 }
 
 .downloadBtnFree {
-  min-width: 260px;
+  width: 260px;
   height: 60px;
   background-color: #F7F7F7;
   border-radius: 30px;
@@ -251,7 +324,7 @@ h3 {
 }
 
 .premiumOption {
-  min-width: 480px;
+  width: 480px;
   margin: 0 auto;
 }
 
@@ -261,7 +334,7 @@ h3 {
 }
 
 .downloadBtnPremium {
-  min-width: 260px;
+  width: 260px;
   height: 60px;
   border-radius: 30px;
   margin-top: 20px;
@@ -274,5 +347,104 @@ h3 {
   text-decoration: none;
   font-size: 1.1em;
   color: #F7F7F7;
+}
+
+@media (max-width: 999px) and (min-width: 740px) {
+  .freeOrPremiumDiv {
+    width: 660px;
+  }
+  .freeOrPremiumPICDiv {
+    width: 660px;
+    height: 400px;
+  }
+  .freeIMG {
+    width: 160px;
+  }
+  .premiumIMG {
+    width: 330px;
+  }
+  .freeOption {
+    width: 160px;
+  }
+  .downloadBtnFree {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .premiumOption {
+    width: 330px;
+  }
+  .downloadBtnPremium {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 739px) {
+  .freeOrPremiumDiv {
+    width: 90%;
+  }
+  .freeOrPremiumPICDiv {
+    width: 90%;
+    height: 250px;
+  }
+  .freeIMG {
+    width: 100px;
+    margin: 0 25px 0 auto;
+  }
+  .premiumIMG {
+    width: 180px;
+    margin: 0 auto 0 25px;
+  }
+  h2 {
+    font-size: 1.5em !important;
+  }
+  .freeOption {
+    width: 120px;
+    margin: 0 25px 0 auto;
+  }
+  .downloadBtnFree {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .premiumOption {
+    width: 160px;
+    margin: 0 auto 0 25px;
+  }
+  .downloadBtnPremium {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .checkBox {
+    width: 20px;
+    height: 20px;
+  }
+  .sellOptions p {
+    font-size: 0.9em;
+  }
+  .downloadBtnFree p {
+    font-size: 0.9em;
+  }
+  .downloadBtnPremium p {
+    font-size: 0.9em;
+  }
+  .freeOption p {
+    font-size: 0.9em;
+  }
+  .FreeOptionsDIV {
+    width: 95px;
+    text-align: left;
+  }
+  .PremiumOptionsDIV {
+    width: 135px;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=pricing.css.map */

@@ -22,3 +22,22 @@
     width: 30px;
     cursor: pointer;
 }
+
+
+// ************************************ 
+// Media Queries
+
+// Media below 900 px
+
+@media (max-width: 999px) and (min-width: 740px) {
+    .socialMediaIcons {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .socialMediaIcons {
+        display: none;
+    }
+}

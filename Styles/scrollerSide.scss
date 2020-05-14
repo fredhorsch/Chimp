@@ -1,0 +1,48 @@
+// ************************************
+// All the Imports variables/body/Flexbox/text
+
+@import "allimport.scss";
+
+/* // Scroller on the side of the page  */
+
+.scrollerSidePage {
+    height: 50px;
+    width: 30px;
+    margin-right: 25px;
+    right: 0px;
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.scrollerLineShort {
+    margin: 0px 0px 10px 0px;
+    width: 15px;
+    height: 1px;
+    background-color: yellowgreen;
+}
+
+.scrollerLineLong {
+    margin: 0px 0px 10px 0px;
+    width: 30px;
+    height: 1px;
+    background-color: yellowgreen;
+}
+
+// ************************************ 
+// Media Queries
+
+@media (max-width: 999px) and (min-width: 740px) {
+    .scrollerSidePage {
+        margin-right: 15px;
+    }
+}
+
+// Media below 900 px
+
+@media (max-width: 740px) {
+
+    .scrollerSidePage {
+        display: none;
+    }
+}

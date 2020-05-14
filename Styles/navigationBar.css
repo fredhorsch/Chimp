@@ -1,6 +1,8 @@
 body {
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -170,6 +172,76 @@ h3 {
           align-items: center;
 }
 
+.flexBox-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexBox-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexBox-15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flexBox-16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gridBox-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
 /* // ************************************  
 // Top bar with menu line  */
 .navigationBar {
@@ -181,6 +253,7 @@ h3 {
   position: fixed;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10000;
 }
 
 .divChimpLogoNavigationBar {
@@ -223,5 +296,71 @@ h3 {
 .downloadNavBar p {
   color: #F7F7F7;
   position: relative;
+  margin: 0;
+  font-size: 1em;
+}
+
+@media (max-width: 999px) and (min-width: 740px) {
+  .navigationBar {
+    height: 50px;
+  }
+  .divChimpLogoNavigationBar a {
+    font-size: 25px;
+  }
+  .chimpIconNavigationBar {
+    height: 30px;
+  }
+  .downloadNavBar {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 739px) {
+  .menueButtomNavbar {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .navigationBar {
+    height: 50px;
+  }
+  .chimpIconNavigationBar {
+    height: 30px;
+  }
+  .menuColum {
+    color: #F7F7F7;
+    position: relative;
+    margin: 0;
+    font-size: 1.1em;
+  }
+  .divChimpLogoNavigationBar a {
+    display: none;
+  }
+  .divNavigationBarTools a {
+    display: none;
+  }
+  .downloadNavBar {
+    visibility: hidden;
+  }
+  .downloadNavBar p {
+    display: none;
+  }
+  .divNavigationBarTools {
+    margin-right: 20px;
+  }
+  .menueButtomNavbar {
+    background-color: transparent;
+    border: none;
+    color: #313131;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=navigationBar.css.map */

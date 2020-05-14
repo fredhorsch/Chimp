@@ -21,7 +21,13 @@
     <?php include 'Views/scrollerSide.php'; ?>
 
 
-    <div class="flexBox-3 helpSearchDIV">
+    <div class="flexBox-16 helpSearchDIV">
+
+        <div class="howCanText">
+
+            <p id="helpText">How can we help you?</p>
+
+        </div>
 
         <div class="flexBox-13 searchBox">
 

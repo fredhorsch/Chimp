@@ -46,11 +46,13 @@
 
                         <img class="checkBox" src="Icons/check-blue.png" alt="Check">
 
-                        <p>Basic access</p>
+                        <div class="FreeOptionsDIV">
+                            <p>Basic access</p>
+                        </div>
 
                     </div>
 
-                    <p id="freeOptionFont">Lorem ipsum dolor sit amet,<br />consetetur sadipscing elitr, sed<br />diam nonumy eirmod</p>
+                    <p id="freeOptionFont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
 
                     <div class="flexBox-3 downloadBtnFree">
                         <p id="fontFree">For Free</p>
@@ -66,26 +68,30 @@
                     <div>
                         <div class="flexBox-2 sellOptions">
                             <img class="checkBox" src="Icons/check-blue.png" alt="Check">
-
-                            <p>orem ipsum dolor sit amet,<br /> consetetur </p>
+                            <div class="PremiumOptionsDIV">
+                                <p>orem ipsum dolor sit amet, consetetur </p>
+                            </div>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
                             <img class="checkBox" src="Icons/check-blue.png" alt="Check">
-
-                            <p>sadipscing elitr, sed</p>
+                            <div class="PremiumOptionsDIV">
+                                <p>sadipscing elitr, sed</p>
+                            </div>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
                             <img class="checkBox" src="Icons/check-blue.png" alt="Check">
-
-                            <p>diam nonumy eirmod</p>
+                            <div class="PremiumOptionsDIV">
+                                <p>diam nonumy eirmod</p>
+                            </div>
                         </div>
 
                         <div class="flexBox-2 sellOptions">
                             <img class="checkBox" src="Icons/check-blue.png" alt="Check">
-
-                            <p>tempor invidunt ut</p>
+                            <div class="PremiumOptionsDIV">
+                                <p>tempor invidunt ut</p>
+                            </div>
                         </div>
                     </div>
 

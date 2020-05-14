@@ -3,8 +3,13 @@
 
 @import "allimport.scss";
 
+
 /* // ************************************  
 // Top bar with menu line  */
+
+.hidden {
+    visibility: hidden;
+}
 
 .navigationBar {
     width: 99%;
@@ -56,9 +61,8 @@
 .downloadNavBar p {
     color: $base-white-darker-color;
     position: relative;
-    margin: 0;
-    font-size: 1em;
 }
+
 
 // ************************************ 
 // Media Queries

@@ -1,6 +1,8 @@
 body {
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -170,6 +172,76 @@ h3 {
           align-items: center;
 }
 
+.flexBox-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexBox-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexBox-15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flexBox-16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gridBox-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
 .firstPagebox {
   margin: 80px 70px 50px 70px;
   width: auto;
@@ -182,22 +254,20 @@ h3 {
 
 .firstPageboxLeft {
   width: 50%;
-  height: 640px;
+  height: auto;
 }
 
 .firstPageboxRight {
   width: 50%;
-  height: 640px;
+  height: auto;
 }
 
-#divChimpLogo {
-  position: relative;
-  top: 30px;
-  left: 60px;
+.divChimpLogo {
+  margin: 30px 0 0 60px;
 }
 
-#divChimpLogo a {
-  position: absolute;
+.divChimpLogo a {
+  margin-left: 10px;
   color: #313131;
   text-decoration: none;
   font-size: 30px;
@@ -206,26 +276,19 @@ h3 {
 
 #chimpLogo {
   height: 40px;
-  position: absolute;
+  margin: 0;
   cursor: pointer;
 }
 
-#sloganMainPage {
-  width: 540px;
-  position: relative;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  top: 43%;
-  left: 60px;
-  margin: 0px 0px 0px 0px;
+.sloganMainPage {
+  width: auto;
+  margin: 200px 0 0 60px;
 }
 
-#fristBoxDownloadBtn {
+.fristBoxDownloadBtn {
   height: 70px;
   width: 270px;
-  position: relative;
-  left: 60px;
-  top: 300px;
+  margin: 80px 0 0 60px;
   background-color: #1F23EE;
   border-radius: 40px 40px 40px 40px;
   cursor: pointer;
@@ -234,63 +297,48 @@ h3 {
 }
 
 .freeDownloadMainPage {
+  margin-left: 15px;
   color: #ffffff;
   text-decoration: none;
-  position: absolute;
-  float: left;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 75px;
   font-size: 20px;
 }
 
 .circleChimp {
-  position: absolute;
   width: 50px;
   height: 50px;
-  float: left;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 10px;
+  margin-left: 15px;
   background-color: #ffffff;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 25px;
 }
 
 .downloadIconMainPage {
-  position: absolute;
   width: 30px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
 }
 
 .firstPageDIVAnimation {
   width: 80%;
 }
 
-#chimpOnDesk {
+.chimpOnDesk {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .leftDIVSecondPage {
-  min-width: 60%;
+  min-width: 55%;
   height: 650px;
   background-color: #F7F7F7;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-#secondBoxDownloadBtn {
+.secondBoxDownloadBtn {
   margin-top: 30px;
   height: 70px;
   width: 270px;
@@ -304,35 +352,35 @@ h3 {
 
 #textSecondPageFont36 {
   text-align: center;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
 }
 
 #textSecondPageFont16 {
   text-align: center;
-  margin: 10px 0px 0px 0px;
+  margin: 0px;
 }
 
 .rightDIVSecondPage {
-  min-width: 40%;
+  min-width: 45%;
   height: 650px;
   background-color: #F7F7F7;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
 }
 
 .rightSideDIVSecondPage {
-  width: 80%;
+  width: 70%;
   height: 0;
   padding-bottom: calc(80% * (9 / 16));
   background-color: cadetblue;
 }
 
-#thirdPageMainDIV {
+.thirdPageMainDIV {
   width: 100%;
-  height: 450px;
+  height: 350px;
   background-color: #525252;
 }
 
-#thirdPageMainDIV h2 {
+.thirdPageMainDIV h2 {
   color: #F7F7F7;
 }
 
@@ -344,7 +392,7 @@ h3 {
 
 .DIVBoxBenefitsOfChimp {
   width: 80%;
-  height: 840px;
+  height: 740px;
   background-color: #F7F7F7;
   position: relative;
   -webkit-transform: translate(-50%, -50%);
@@ -374,14 +422,17 @@ h3 {
           align-items: center;
 }
 
+.divOfBenefits {
+  width: 100%;
+  height: 90%;
+}
+
 .blogDivOfBenefits {
-  position: relative;
-  margin: 0;
+  margin: 15px;
   border: 1px solid #c2d1d9;
   border-radius: 2px;
-  width: calc((100% / 3) - 30px);
-  height: 0;
-  padding-bottom: 33%;
+  width: auto;
+  height: auto;
 }
 
 .blogDivOfBenefits img {
@@ -412,6 +463,7 @@ h3 {
 }
 
 .appleEcoSystemSlogan {
+  width: 80%;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -457,6 +509,7 @@ h3 {
 }
 
 .ChimpSloganSexthPage {
+  width: 80%;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,5 +534,212 @@ h3 {
 .ChimpPicSexthPage img {
   width: 100%;
   border-radius: 8px;
+}
+
+@media (max-width: 999px) and (min-width: 740px) {
+  .firstPagebox {
+    height: 440px;
+  }
+  .firstPageboxLeft {
+    height: 100%;
+  }
+  .firstPageboxRight {
+    height: 100%;
+  }
+  .divChimpLogo {
+    margin: 30px 0 0 40px;
+  }
+  .sloganMainPage {
+    margin: 90px 0 0 40px;
+  }
+  .fristBoxDownloadBtn {
+    height: 50px;
+    width: 200px;
+    margin: 70px 0 0 40px;
+    border-radius: 25px;
+  }
+  .freeDownloadMainPage {
+    margin-left: 13px;
+    font-size: 16px;
+  }
+  .circleChimp {
+    margin-left: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+  }
+  .downloadIconMainPage {
+    width: 20px;
+  }
+  .secondBoxDownloadBtn {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+  }
+  .leftDIVSecondPage {
+    min-width: 50%;
+    height: 400px;
+  }
+  .rightDIVSecondPage {
+    min-width: 50%;
+    height: 400px;
+  }
+  .thirdPageMainDIV {
+    height: 250px;
+  }
+  .fifthPageMainDIV {
+    height: 500px;
+  }
+  .fourthPageMainDIV {
+    height: 1300px;
+  }
+  .DIVBoxBenefitsOfChimp {
+    height: 1070px;
+  }
+  .gridBox-1 {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+    -ms-grid-rows: 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+  }
+  .sexthPageMainDIV {
+    height: 350px;
+  }
+}
+
+@media (min-width: 739px) {
+  .firstPageDIVAnimationLeftMobile {
+    visibility: hidden;
+  }
+  .chimpOnDeskLeftMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .firstPagebox {
+    height: auto;
+    margin: 50px 30px 50px 30px;
+  }
+  .firstPageboxLeft {
+    width: 100%;
+  }
+  .firstPageDIVAnimation {
+    width: 200px;
+  }
+  .divChimpLogo {
+    margin: 30px auto;
+  }
+  .flexBox-15 {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  h1 {
+    font-size: 1.5em !important;
+  }
+  .sloganMainPage {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .firstPageDIVAnimationLeftMobile {
+    width: 200px;
+    margin: 30px auto;
+  }
+  .chimpOnDeskLeftMobile {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .fristBoxDownloadBtn {
+    height: 50px;
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 25px;
+  }
+  .freeDownloadMainPage {
+    margin: 0 15px 0 13px;
+    font-size: 16px;
+  }
+  .circleChimp {
+    margin-left: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+  }
+  .downloadIconMainPage {
+    width: 20px;
+  }
+  .chimpOnDesk {
+    display: none;
+  }
+  .firstPageboxRight {
+    visibility: hidden;
+  }
+  h2 {
+    font-size: 1.3em !important;
+    margin: 30px auto 10px auto !important;
+  }
+  h3 {
+    font-size: 0.8em !important;
+  }
+  .leftDIVSecondPage {
+    min-width: 100%;
+    height: auto;
+  }
+  .secondBoxDownloadBtn {
+    height: 50px;
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 25px;
+  }
+  .rightDIVSecondPage {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+  }
+  .rightSideDIVSecondPage {
+    display: none;
+  }
+  .thirdPageMainDIV {
+    height: 300px;
+  }
+  .thirdPageSlogan {
+    text-align: center;
+    max-width: 280px;
+  }
+  .headingOfPagefour h2 {
+    text-align: center;
+  }
+  .fourthPageMainDIV {
+    height: 2300px;
+  }
+  .DIVBoxBenefitsOfChimp {
+    height: 2060px;
+  }
+  .gridBox-1 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  }
+  .fifthPageMainDIV {
+    height: 400px;
+  }
+  .appleEcoSystemSlogan {
+    margin: 0 auto 10px auto;
+    width: 90%;
+  }
+  .sexthPageMainDIV {
+    height: 400px;
+  }
+  .ChimpPicSexthPage {
+    width: 150px;
+  }
+  .ChimpSloganSexthPage {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

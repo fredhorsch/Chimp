@@ -18,9 +18,13 @@
 
 <body>
 
+    <!-- Navigation Bar hide and show while Scrolling -->
+
+    <?php include 'Views/navigationBarScroll.php'; ?>
+
     <!-- First Page of the main page -->
 
-    <div class="flexBox-1 firstPagebox">
+    <div class="flexBox-14 firstPagebox">
 
         <!-- Webpage intro Homepage -->
         <!-- 1. Page of Homepage -->
@@ -28,20 +32,24 @@
         <div class="firstPageboxLeft">
             <!-- Logo for the Webpage -->
 
-            <div id="divChimpLogo">
+            <div class="flexBox-15 divChimpLogo">
                 <img id="chimpLogo" src="Icons/Chimp_noback.png" alt="Chimpanzee">
                 <a href="">Chimp</a>
             </div>
 
-            <div id="sloganMainPage">
+            <div class="sloganMainPage">
 
                 <h1>Qick and easy<br />Team managing tool</h1>
 
             </div>
 
-            <div id="fristBoxDownloadBtn">
+            <div class="firstPageDIVAnimationLeftMobile">
+                <img class="chimpOnDeskLeftMobile" src="Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
+            </div>
 
-                <div class="circleChimp">
+            <div class="flexBox-15 fristBoxDownloadBtn">
+
+                <div class="flexBox-3 circleChimp">
                     <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
                 </div>
 
@@ -51,7 +59,7 @@
         </div>
         <div class="flexBox-3 firstPageboxRight">
             <div class="firstPageDIVAnimation">
-                <img id="chimpOnDesk" src="Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
+                <img class="chimpOnDesk" src="Objects/Chimp_Desk_Laptop.png" alt="Chimpanzee">
             </div>
 
         </div>
@@ -76,9 +84,9 @@
 
             <h3 id="textSecondPageFont16">Chimp is a user-friendly APP to structure<br />your company from A to B</h3>
 
-            <div id="secondBoxDownloadBtn">
+            <div class="flexBox-15 secondBoxDownloadBtn">
 
-                <div class="circleChimp">
+                <div class="flexBox-3 circleChimp">
                     <img class="downloadIconMainPage" src="Icons/Download_Icon.png" alt="Download">
                 </div>
 
@@ -99,11 +107,11 @@
 
     <!-- Third Page with a fucking nice slogan!! -->
 
-    <div class="flexBox-3" id="thirdPageMainDIV">
+    <div class="flexBox-3 thirdPageMainDIV">
 
-
-        <h2>Just put something here what can be interesting<br />for our users, like an award we won somewhere </h2>
-
+        <div class="thirdPageSlogan">
+            <h2>Just put something here what can be interesting<br />for our users, like an award we won somewhere </h2>
+        </div>
 
     </div>
 
@@ -120,7 +128,7 @@
 
             </div>
 
-            <!-- <div class="flexBox-4">
+            <div class="gridBox-1 divOfBenefits">
 
                 <div class="blogDivOfBenefits">
                     <img src="Objects/theKingOfChimps.png" alt="">
@@ -146,7 +154,7 @@
                     <img src="Objects/theKingOfChimps.png" alt="">
                 </div>
 
-            </div> -->
+            </div>
 
 
         </div>
@@ -163,8 +171,7 @@
 
             <div class="appleEcoSystemSlogan">
 
-                <h2>Chimp is perfectly fitted for the Apple ECO-System<br />You can use it on Mac OS iPhone IOS Watch
-                    OS<br />It works perfectly over all these devices and blabla </h2>
+                <h2>Chimp is perfectly fitted for the Apple ECO-System You can use it on Mac OS iPhone IOS Watch OS It works perfectly over all these devices and blabla </h2>
 
             </div>
 
@@ -190,7 +197,7 @@
 
             <div class="ChimpSloganSexthPage">
 
-                <h2>Let the Chimp improve the quality in your<br />company and bring everybody more value</h2>
+                <h2>Let the Chimp improve the quality in your company and bring everybody more value</h2>
 
             </div>
 

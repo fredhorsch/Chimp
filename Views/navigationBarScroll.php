@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="Styles/navigationBar.css">
+    <link rel="stylesheet" href="Styles/navigationBarScroll.css">
 </head>
 
 <body>
 
     <!-- Heading bar with menu line -->
     <div class="flexBox-1">
-        <div class="flexBox-5 navigationBar">
+        <div  id="navBar" class="flexBox-5 navigationBar hidden">
 
             <div class="flexBox-5 divChimpLogoNavigationBar">
                 <img class="chimpIconNavigationBar" src="Icons/Chimp_noback.png" alt="Chimpanzee">

@@ -19,6 +19,7 @@
 
 .sellOptions p {
     margin: 0;
+    font-size: 1em;
 }
 
 // Pic on free and premium webpage
@@ -28,19 +29,19 @@
 }
 
 .freeOrPremiumPICDiv {
-    min-width: 800px;
+    width: 800px;
     height: 530px;
 }
 
 .freeIMG {
-    max-width: 260px;
-    max-height: 350px;
+    width: 260px;
+    max-height: auto;
     margin: 0 auto;
     border-radius: 8px 8px 0 0;
 }
 
 .premiumIMG {
-    max-width: 480px;
+    width: 480px;
     height: auto;
     margin: 0 auto;
     border-radius: 8px 8px 0 0;
@@ -55,14 +56,14 @@
 }
 
 .freeOrPremiumDiv {
-    min-width: 800px;
+    width: 800px;
     margin-bottom: 50px;
 }
 
 // Free Option
 
 .freeOption {
-    min-width: 260px;
+    width: 260px;
     margin: 0 auto;
 }
 
@@ -77,7 +78,7 @@
 }
 
 .downloadBtnFree {
-    min-width: 260px;
+    width: 260px;
     height: 60px;
     background-color: $base-white-darker-color;
     border-radius: 30px;
@@ -94,7 +95,7 @@
 // Premium Option
 
 .premiumOption {
-    min-width: 480px;
+    width: 480px;
     margin: 0 auto; 
 }
 
@@ -104,7 +105,7 @@
 }
 
 .downloadBtnPremium { 
-    min-width: 260px;
+    width: 260px;
     height: 60px;
     border-radius: 30px;
     margin-top: 20px;
@@ -116,4 +117,141 @@
     text-decoration: none;
     font-size: 1.1em;
     color: $base-white-darker-color;
+}
+
+// ************************************ 
+// Media Queries
+
+// Media from 740px to 999px
+
+@media (max-width: 999px) and (min-width: 740px) {
+
+    .freeOrPremiumDiv {
+        width: 660px;
+    }
+
+    .freeOrPremiumPICDiv {
+        width: 660px;
+        height: 400px;
+    }
+
+    .freeIMG {
+        width: 160px;
+    }
+
+    .premiumIMG {
+        width: 330px;
+    }
+
+    .freeOption {
+        width: 160px;
+    }
+
+    .downloadBtnFree {
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+
+    .premiumOption {
+        width: 330px;
+    }
+
+    .downloadBtnPremium { 
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+   
+}
+
+// Mobile until 739px
+
+@media (min-width: 739px) {
+
+    
+
+}
+
+@media (max-width: 739px) {
+
+    .freeOrPremiumDiv {
+        width: 90%;
+    }
+
+    .freeOrPremiumPICDiv {
+        width: 90%;
+        height: 250px;
+    }
+
+    .freeIMG {
+        width: 100px;
+        margin: 0 25px 0 auto;
+    }
+
+    .premiumIMG {
+        width: 180px;
+        margin: 0 auto 0 25px;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    .freeOption {
+        width: 120px;
+        margin: 0 25px 0 auto;
+    }
+
+    .downloadBtnFree {
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+
+    .premiumOption {
+        width: 160px;
+        margin: 0 auto 0 25px;
+    }
+
+    .downloadBtnPremium { 
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+
+    .checkBox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sellOptions p {
+        font-size: 0.9em;
+    }
+
+    .downloadBtnFree p {
+        font-size: 0.9em;
+    }
+
+    .downloadBtnPremium p {
+        font-size: 0.9em;
+    }
+
+    .freeOption p {
+        font-size: 0.9em;
+    }
+
+    .FreeOptionsDIV {
+        width: 95px;
+        text-align: left;
+    }
+    
+    .PremiumOptionsDIV {
+        width: 135px;
+        text-align: left;
+    }
 }
