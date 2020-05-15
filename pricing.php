@@ -110,8 +110,9 @@
 
 
     <!-- Footer Page with a fucking nice slogan!! -->
+    <!-- I have used require because the webpage has to shut down if the footer cannot be loaded-->
 
-    <?php include 'Views/footer.php'; ?>
+    <?php require 'Views/footer.php'; ?>
 
 
 </body>
