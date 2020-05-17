@@ -80,7 +80,7 @@
         <div class="flexBox-3 leftDIVSecondPage">
             <!-- <div class="leftSideDIVSecondPage"> -->
 
-            <h2 id="textSecondPageFont36">The fastest way to<br />manag your company</h2>
+            <h2 id="textSecondPageFont36">The fastest way to<br />manage your company</h2>
 
             <h3 id="textSecondPageFont16">Chimp is a user-friendly APP to structure<br />your company from A to B</h3>
 
