@@ -1,7 +1,7 @@
 # Chimp
 
 <p align="center">
-    <img src="https://github.com/mgravemeyer/Segler/blob/master/readmeImg/AppPreview.png" max-height="500">
+    <img src="https://github.com/fredhorsch/Chimp/blob/master/Objects/Chimp_Webpage.png" max-height="500">
 </p>
 
 ### Client 🚤
@@ -50,18 +50,13 @@ The sended JSON is structured in the following way:
 }
 ```
 
-## Install 💿
-Just download the Project and open Segler.xcworkspace
-If there is an error, the pods need to be rebuild. This is because one of the pods causes sometimes a compiler error for newer xcode versions. Just download cocoapods 
-```sudo gem install cocoapods```
-Go to the Folder of the Project (Segler-Master)
-```pod deintegrate```
-```pod install```
+## Webpage 💿
+Open the Webpage of CHIMP with the following link: [Chimp](http://www.chimp.berlin/).
 
-## Techonologies used 🧑🏼‍💻
-* [Swift](https://developer.apple.com/swift/) with [SwiftUI](https://developer.apple.com/xcode/swiftui/)
-* Design Pattern: [MVVM](https://www.wintellect.com/model-view-viewmodel-mvvm-explained/)
-* [Cocoapods](https://cocoapods.org) Frameworks:
-   * [BarcodeScanner](https://cocoapods.org/pods/BarcodeScanner) - using the CODE-128 encryption
-    * [ProgressHUD](https://cocoapods.org/pods/ProgressHUD) - Displaying App feedback success or failure
-    * [NMSSH](https://cocoapods.org/pods/NMSSH) - SFTP connection via SSH protocol
+## Technologies used 🧑🏼‍💻
+* Basics of the Webpage:
+    * [HTML](https://www.w3schools.com/html/html_basic.asp) and [PHP Variables](https://www.w3schools.com/php/php_variables.asp)
+    * [CSS](https://www.w3schools.com/css/css_intro.asp) and [SCSS](https://sass-lang.com/guide)
+* Responsiveness of the Webpage:
+    * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - also using the game [Flexbox Froggy](https://flexboxfroggy.com/)
+    * [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - also using the game [Grid Garden](https://cssgridgarden.com/)
