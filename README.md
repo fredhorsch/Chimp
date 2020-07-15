@@ -16,7 +16,7 @@ The goal was to build a Webpage for our project Chimp. The aim was to create a c
 * Responsive Design.
 
 ### Challenges 🧨
-Before I started programming the website I only had the basic knowledge about web development. Accordingly, the challenge was to keep the website structured and responsive for all screen sizes. Another challenge was that we didn't have a designer in the team and so I took over the design part of the website as well.
+Before I started programming the website I only had the basic knowledge about web development. Accordingly, the challenge was to keep the website structured and responsive to all screen sizes. Another challenge was that we didn't have a designer in the team and so I took over the design part of the website as well.
 
 ## Webpage 💿
 Open the Webpage of CHIMP with the following link: [Chimp](http://www.chimp.berlin/).
