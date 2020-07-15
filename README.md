@@ -4,51 +4,19 @@
     <img src="https://github.com/fredhorsch/Chimp/blob/master/Objects/Chimp_Webpage.png" max-height="500">
 </p>
 
-### Client 🚤
-This project is produced as i worked as a freelancer for the company [Segler](https://www.segler.eu/home.html). It is a middle sized company based near osnabrück, germany and they are producing conveyor systems.
+### Project 🐒
+Chimp is our project from the fall semester 2020. This project aims to build a desktop application for a CRM (Customer relationship management) tool, to manage most efficiently a team, customer, and your daily tasks. 
 
 ### Goal 🎯
-The goal was to build an app that helps the engineers to track mistakes that were made in the factory producing process. They should take a picture, write some comments about what is wrong with the part and then send it to a server. On this server the data will get scanned by a python algorythm and it will getting send to the right instituiton in segler that they can work things out.
+The goal was to build a Webpage for our project Chimp. The aim was to create a codebase that is easy to adapt, with different input and images, and which is also responsive for different screen sizes.
 
 ### Features 📱
-* Scanning Barcodes from employes for login.
-* Scanning Barcodes from Drawings and fill that into the form.
-* Taking multiple photos.
-* Sending Photos to a SFTP Server with additional information stored in a JSON File.
+* Design of the Webpage.
+* Structured CODE and easy to edit.
+* Responsive Design.
 
 ### Challenges 🧨
-A requierement was to send the images with additional comments over the internal network via SFTP.
-Two ways could be:
-    send the data on the image via meta-data. 
-    send a json file along the image.
-The company already worked with JSON so the IT-Department and I decided to use JSON along with the Image. One problem could be if the Image successfully was transfered but the JSON not, there could be problems on the Server. Therefor the Server searches for both files and if one is not existing then it will throw an error to the IT-Department. The Server-side stuff was not written by me.
-
-### Program Sequence 🟢
-##### Getting Server Connetion and Download config.json
-The Application needs to get configured on the first time the user starts the app. Therefore the User has to fill out server connection credentials. Then the App will search for a file named: config.json. When it finds the file it will get the Files stored data.
-
-##### User Login
-A user can then scan a barcode to login. The barcode must have the following form: U_xnamex. Example: U_Max.
-
-##### Submit a problem
-After that the User can scan again some papers related to the machines. It will automatically fill out the form for the user. The user has also the option to manually type in all informations to the form. After that the user can send the images to the server via SFTP. 
-
-#### Server is getting Image + JSON
-
-The JSON name is for example: 
-```543271_10_20200708_160956_0.json ```
-Order-Nr, Positions-Nr, Date, Time, Counter for multiple Images
-
-The sended JSON is structured in the following way:
-
-```diff
-{
-    "Meldungstyp": "Material fehlt",
-    "User": "Max",
-    "Freitext": "Freitext",
-    "Bereich": "Sägen"
-}
-```
+Before I started programming the website I only had the basic knowledge about web development. Accordingly, the challenge was to keep the website structured and responsive for all screen sizes. Another challenge was that we didn't have a designer in the team and so I took over the design part of the website as well.
 
 ## Webpage 💿
 Open the Webpage of CHIMP with the following link: [Chimp](http://www.chimp.berlin/).
